@@ -21,11 +21,11 @@ DCUBE=/data/boittier/energies/h2o_geom.xyz.dir/h2o_1.chk.fchk.density.cube
 # FITTING PARAMETERS
 NFIT=1        # number of separate fits to perform for each fragment (should not exceed atom fits)
 NTRY=3        # number of tries for each fit
-MAXATMCHG=4   # max charges per atom used in atom fits
-NFRAG=2       # number of fragments to fit
-MINFRAGCHG=1  # smallest number of charges to fit for fragment
-MAXFRAGCHG=5 # largest number of charges to fit for fragment
-ATOMLIST=("1,2" "1,3") # array of atom indices of each fragment
+MAXATMCHG=3  # max charges per atom used in atom fits
+NFRAG=1       # number of fragments to fit
+MINFRAGCHG=3  # smallest number of charges to fit for fragment
+MAXFRAGCHG=9 # largest number of charges to fit for fragment
+ATOMLIST=("1,2,3") # array of atom indices of each fragment
 
 cd $WORKDIR
 

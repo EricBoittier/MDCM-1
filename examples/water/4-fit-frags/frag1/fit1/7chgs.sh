@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=frag1fit1q3
+#SBATCH --job-name=frag1fit1q7
 #SBATCH --nodes=1
 #SBATCH --ntasks=4
 #SBATCH --partition=long
@@ -13,9 +13,9 @@ PCUBE=/data/boittier/energies/h2o_geom.xyz.dir/h2o_1.chk.fchk.potential.cube
 DCUBE=/data/boittier/energies/h2o_geom.xyz.dir/h2o_1.chk.fchk.density.cube
 NTRY=3
 ATOMLIST="1,2,3"
-MINCHG=3
-MAXCHG=3
-NAME=3chgs
+MINCHG=7
+MAXCHG=7
+NAME=7chgs
 
 cd /home/boittier/MDCM-1/examples/water/4-fit-frags/frag1/fit1
 

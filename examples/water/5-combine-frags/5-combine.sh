@@ -12,12 +12,12 @@ WORKDIR=$ROOT/examples/water/5-combine-frags
 BINDIR=$ROOT/bin
 FRAGDIR=$ROOT/examples/water/4-fit-frags # folder containing fitted fragments
 # FITTING PARAMETERS
-NFRAG=2             #number of fragments fitted
+NFRAG=1             #number of fragments fitted
 NFIT=1              #number of fits per fragment
 MINCHGS=3          #minimum number of charges for whole molecule
-MAXCHGS=15          #maximum number of charges for whole molecule
+MAXCHGS=9          #maximum number of charges for whole molecule
 MINFRAGCHGS=1       #minimum charges used to fit fragments in previous step
-MAXFRAGCHGS=5      #maximum charges used to fit fragments in previous step
+MAXFRAGCHGS=1      #maximum charges used to fit fragments in previous step
 
 cd $FRAGDIR
 

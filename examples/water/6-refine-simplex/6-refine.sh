@@ -26,7 +26,7 @@ DCUBE=/data/boittier/energies/h2o_geom.xyz.dir/h2o_1.chk.fchk.density.cube
 MINNTRY=1      #tries for largest number of charges (DE only)
 MAXNTRY=1      #tries for smallest number of charges (DE only)
 MINCHGS=3     #minimum number of charges for whole molecule
-MAXCHGS=15     #maximum number of charges for whole molecule
+MAXCHGS=9     #maximum number of charges for whole molecule
 MAXATMCHG=3    # max charges per atom used in atom fits (step 3)
 
 REFINEDIR=$WORKDIR/refined
