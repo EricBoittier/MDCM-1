@@ -60,10 +60,13 @@ program solve_eigen
   logical                      :: FLAG_NDC
 
 
+  ! read arguments
   if(iargc().ne.2)then
     write(6,*) 'Usage: punch-to-dcm file.punch frame_def.txt'
     return 
   endif
+  
+  ! open Punch file
   CALL getarg(1, arg)
   write(*,*) '- Opening file ',TRIM(arg),' for reading'
   open(unit=100,file=arg,IOSTAT=readstat,STATUS='OLD',ACTION='read')
@@ -74,8 +77,8 @@ program solve_eigen
   read(100,*) line
   read(100,*) line
 
+  ! read reference frame
   CALL getarg(2, arg)
-
   CNT = 0
   readloop : do
 
