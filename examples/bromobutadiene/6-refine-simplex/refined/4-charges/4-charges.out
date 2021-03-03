@@ -1,0 +1,47 @@
+Running in fitting mode
+
+Reading "/data/boittier/energies/h2o_geom.xyz.dir/h2o_1.chk.fchk.potential.cube"...
+
+  h2o Potential=SCF
+  Electrostatic potential from Total SCF Density
+    3   -4.970736   -4.748413   -4.970736
+   80    0.125841    0.000000    0.000000
+   80    0.000000    0.125841    0.000000
+   80    0.000000    0.000000    0.125841
+    8    8.000000    0.000000    0.222323    0.000000
+    1    1.000000    1.427171   -0.896400    0.000000
+    1    1.000000   -1.427171   -0.882184    0.000000
+  1.66698E-02  1.67288E-02  1.67584E-02  1.67584E-02  1.67288E-02  1.66698E-02
+       .            .            .            .            .            .
+       .            .            .            .            .            .
+       .            .            .            .            .            .
+ -9.18626E-03 -9.18159E-03 -9.17225E-03 -9.15823E-03 -9.13952E-03 -9.11609E-03
+
+338246 out of 512000 gridpoints are considered ( 66.1%).
+
+...done!
+
+
+
+
+ Refining solution from file/home/boittier/MDCM-1/examples/water/4-fit-frags/frag1/fit1/4charges.xyz
+ Contains      4 charges
+      Initial RMSE =         4.362653783E-01 kcal/mol
+Running DE in parallel with 4 thread(s)!
+
+
+User requested refinement using simplex algorithm (no DE)
+
+Exiting simplex optimization after   383 iterations
+RMSE         6.952336592E-04 Hartree
+Best found solution for 4 charges:
+        RMSE         4.362653783E-01 kcal/mol
+         MAE         2.170430382-320 kcal/mol
+     max. AE         1.479094843-307 kcal/mol
+
+       x[bohr]       y[bohr]       z[bohr]          q[e]
+    -0.0027109     0.0848715    -0.6516053    -0.4544659
+    -0.0027256     0.0848710     0.6515742    -0.4544626
+     1.4649170    -0.7707513    -0.0000195     0.4524383
+    -1.4593189    -0.7530007    -0.0000154     0.4564902
+

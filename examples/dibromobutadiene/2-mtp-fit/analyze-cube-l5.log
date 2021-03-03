@@ -1,0 +1,50 @@
+Running in analysis mode
+
+Reading "/data/boittier/energies/h2o_geom.xyz.dir/h2o_1.chk.fchk.potential.cube"...
+
+  h2o Potential=SCF
+  Electrostatic potential from Total SCF Density
+    3   -4.970736   -4.748413   -4.970736
+   80    0.125841    0.000000    0.000000
+   80    0.000000    0.125841    0.000000
+   80    0.000000    0.000000    0.125841
+    8    8.000000    0.000000    0.222323    0.000000
+    1    1.000000    1.427171   -0.896400    0.000000
+    1    1.000000   -1.427171   -0.882184    0.000000
+  6.14036E-03  6.36314E-03  6.59298E-03  6.82987E-03  7.07378E-03  7.32462E-03
+       .            .            .            .            .            .
+       .            .            .            .            .            .
+       .            .            .            .            .            .
+ -6.74297E-03 -6.62470E-03 -6.50638E-03 -6.38817E-03 -6.27022E-03 -6.15269E-03
+
+512000 out of 512000 gridpoints are considered (100.0%).
+
+...done!
+
+Reading "/home/boittier/MDCM-1//examples/water/2-mtp-fit/ditriantapole_expansion.cube"...
+
+  Fitted ESP
+  Electrostatic potential fitted from ditriantapole expansion.
+    3   -4.970736   -4.748413   -4.970736
+   80    0.125841    0.000000    0.000000
+   80    0.000000    0.125841    0.000000
+   80    0.000000    0.000000    0.125841
+    8    8.000000    0.000000    0.222323    0.000000
+    1    1.000000    1.427171   -0.896400    0.000000
+    1    1.000000   -1.427171   -0.882184    0.000000
+  6.13108E-03  6.35284E-03  6.58161E-03  6.81738E-03  7.06009E-03  7.30968E-03
+       .            .            .            .            .            .
+       .            .            .            .            .            .
+       .            .            .            .            .            .
+ -6.73561E-03 -6.61694E-03 -6.49824E-03 -6.37968E-03 -6.26141E-03 -6.14358E-03
+
+512000 out of 512000 gridpoints are considered (100.0%).
+
+...done!
+
+                       Measure       RMSE[kcal/mol/e]   MaxError[kcal/mol/e]   NPoints
+                         Total        3.390092350E-01        2.556724580E+00    407544
+Close (  1.20 < r <   1.66 )          5.702808889E-01        2.556724580E+00    143121
+Mid-range ( 1.66 < r <  2.20)         3.781993542E-02        1.405621211E-01    195125
+Far-range (  2.20         < r)        1.367853697E-02        5.114202172E-02     69298
+Did analysis and wrote slice data

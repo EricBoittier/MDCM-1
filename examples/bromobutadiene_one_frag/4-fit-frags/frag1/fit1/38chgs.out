@@ -1,0 +1,427 @@
+Running in fitting mode
+
+Reading "/data/boittier/gaussian_scans/bromobutadiene/scan_extract_0.xyz.chk.fchk.pot.cube"...
+
+  opt Potential
+  Electrostatic potential from Total SCF Density
+   10  -10.982195  -11.443988   -9.769128
+   84    0.265911    0.000000    0.000000
+   82    0.000000    0.265911    0.000000
+   74    0.000000    0.000000    0.265911
+    6    6.000000   -1.673952    3.606648    0.000000
+    6    6.000000    0.000000    1.721109    0.000000
+    6    6.000000    2.723878    2.103773    0.000000
+    6    6.000000    4.508290    0.324643    0.000000
+    1    1.000000   -3.687195    3.287689    0.000000
+    1    1.000000   -0.999128    5.537939    0.000000
+   35   35.000000   -1.213067   -1.674860    0.000000
+    1    1.000000    3.266739    4.081797    0.000000
+    1    1.000000    4.043439   -1.663450    0.000000
+    1    1.000000    6.484203    0.839077    0.000000
+ -4.50402E-03 -4.51053E-03 -4.51179E-03 -4.50778E-03 -4.37950E-03 -4.39021E-03
+       .            .            .            .            .            .
+       .            .            .            .            .            .
+       .            .            .            .            .            .
+  7.70629E-03  7.78523E-03  7.80058E-03  7.75172E-03  7.64058E-03  7.47148E-03
+
+132359 out of 509712 gridpoints are considered ( 26.0%).
+
+...done!
+
+
+
+
+USING GREEDY MODE
+File "multipole1_1charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole1_2charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole1_3charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole1_4charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole2_1charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole2_2charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole2_3charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole2_4charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole3_1charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole3_2charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole3_3charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole3_4charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole4_1charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole4_2charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole4_3charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole4_4charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole5_1charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole5_2charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole5_3charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole5_4charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole6_1charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole6_2charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole6_3charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole6_4charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole7_1charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole7_2charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole7_3charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole7_4charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole8_1charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole8_2charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole8_3charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole8_4charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole9_1charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole9_2charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole9_3charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole9_4charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole10_1charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole10_2charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole10_3charges.xyz" already exists. Fitting procedure is skipped.
+File "multipole10_4charges.xyz" already exists. Fitting procedure is skipped.
+Total fragment charge (a.u.):         1.040834086E-16
+Running DE in parallel with 4 thread(s)!
+
+Starting fitting procedure for 38 charges, trial 1
+gen      0/76000      elitist  6.3885865E-02 feasible? F
+gen    100/76000      elitist  6.3885865E-02 feasible? F
+gen    200/76000      elitist  6.3885865E-02 feasible? F
+gen    300/76000      elitist  6.3885865E-02 feasible? F
+gen    400/76000      elitist  9.5249090E+07 feasible? F
+gen    500/76000      elitist  1.7721036E+08 feasible? F
+gen    600/76000      elitist  1.7721036E+08 feasible? F
+gen    700/76000      elitist  1.7794107E+08 feasible? F
+gen    800/76000      elitist  8.3869449E+19 feasible? F
+gen    900/76000      elitist  7.7333786E+19 feasible? F
+gen   1000/76000      elitist  7.1424426E+19 feasible? F
+gen   1100/76000      elitist  6.6280268E+19 feasible? F
+gen   1200/76000      elitist  6.6280268E+19 feasible? F
+gen   1300/76000      elitist  1.0192217E+22 feasible? F
+gen   1400/76000      elitist  1.1518773E+22 feasible? F
+gen   1500/76000      elitist  1.1518773E+22 feasible? F
+gen   1600/76000      elitist  1.1518773E+22 feasible? F
+gen   1700/76000      elitist  1.1536641E+22 feasible? F
+gen   1800/76000      elitist  1.2515291E+22 feasible? F
+gen   1900/76000      elitist  1.1524979E+22 feasible? F
+gen   2000/76000      elitist  1.1978782E+22 feasible? F
+gen   2100/76000      elitist  1.1642572E+22 feasible? F
+gen   2200/76000      elitist  1.1289575E+22 feasible? F
+gen   2300/76000      elitist  1.0881078E+22 feasible? F
+gen   2400/76000      elitist  1.0881078E+22 feasible? F
+gen   2500/76000      elitist  1.0757052E+22 feasible? F
+gen   2600/76000      elitist  1.0757052E+22 feasible? F
+gen   2700/76000      elitist  1.0665374E+22 feasible? F
+gen   2800/76000      elitist  1.0665374E+22 feasible? F
+gen   2900/76000      elitist  1.0665374E+22 feasible? F
+gen   3000/76000      elitist  1.0665374E+22 feasible? F
+gen   3100/76000      elitist  1.0665374E+22 feasible? F
+gen   3200/76000      elitist  1.0665374E+22 feasible? F
+gen   3300/76000      elitist  1.0665374E+22 feasible? F
+gen   3400/76000      elitist  1.0665374E+22 feasible? F
+gen   3500/76000      elitist  1.0665374E+22 feasible? F
+gen   3600/76000      elitist  1.0665374E+22 feasible? F
+gen   3700/76000      elitist  1.0665374E+22 feasible? F
+gen   3800/76000      elitist  1.0665374E+22 feasible? F
+gen   3900/76000      elitist  1.0665374E+22 feasible? F
+gen   4000/76000      elitist  1.0665374E+22 feasible? F
+gen   4100/76000      elitist  1.0665374E+22 feasible? F
+gen   4200/76000      elitist  1.0665374E+22 feasible? F
+gen   4300/76000      elitist  1.0665374E+22 feasible? F
+gen   4400/76000      elitist  1.1250169E+22 feasible? F
+gen   4500/76000      elitist  1.1250169E+22 feasible? F
+gen   4600/76000      elitist  1.1250169E+22 feasible? F
+gen   4700/76000      elitist  1.1284104E+22 feasible? F
+gen   4800/76000      elitist  1.1284104E+22 feasible? F
+gen   4900/76000      elitist  1.1202759E+22 feasible? F
+gen   5000/76000      elitist  1.1202759E+22 feasible? F
+gen   5100/76000      elitist  1.1202759E+22 feasible? F
+gen   5200/76000      elitist  1.1202759E+22 feasible? F
+gen   5300/76000      elitist  1.1202759E+22 feasible? F
+gen   5400/76000      elitist  1.1202759E+22 feasible? F
+gen   5500/76000      elitist  1.1202759E+22 feasible? F
+gen   5600/76000      elitist  1.1202759E+22 feasible? F
+gen   5700/76000      elitist  1.1202759E+22 feasible? F
+gen   5800/76000      elitist  1.1202759E+22 feasible? F
+gen   5900/76000      elitist  1.1235555E+22 feasible? F
+gen   6000/76000      elitist  1.1235555E+22 feasible? F
+gen   6100/76000      elitist  1.1235555E+22 feasible? F
+gen   6200/76000      elitist  1.1235555E+22 feasible? F
+gen   6300/76000      elitist  1.1235555E+22 feasible? F
+gen   6400/76000      elitist  1.1235555E+22 feasible? F
+gen   6500/76000      elitist  1.1235555E+22 feasible? F
+gen   6600/76000      elitist  1.1235555E+22 feasible? F
+gen   6700/76000      elitist  1.1235555E+22 feasible? F
+gen   6800/76000      elitist  1.1235555E+22 feasible? F
+gen   6900/76000      elitist  1.1235555E+22 feasible? F
+gen   7000/76000      elitist  1.1235555E+22 feasible? F
+gen   7100/76000      elitist  1.1235555E+22 feasible? F
+gen   7200/76000      elitist  1.1235555E+22 feasible? F
+gen   7300/76000      elitist  1.1235555E+22 feasible? F
+gen   7400/76000      elitist  1.1235555E+22 feasible? F
+gen   7500/76000      elitist  1.1235555E+22 feasible? F
+gen   7600/76000      elitist  1.1235555E+22 feasible? F
+gen   7700/76000      elitist  1.1235555E+22 feasible? F
+gen   7800/76000      elitist  1.1235555E+22 feasible? F
+gen   7900/76000      elitist  1.1235555E+22 feasible? F
+gen   8000/76000      elitist  1.0949405E+22 feasible? F
+gen   8100/76000      elitist  1.0949405E+22 feasible? F
+gen   8200/76000      elitist  1.0949405E+22 feasible? F
+gen   8300/76000      elitist  1.0949405E+22 feasible? F
+gen   8400/76000      elitist  1.0949405E+22 feasible? F
+gen   8500/76000      elitist  1.0949405E+22 feasible? F
+gen   8600/76000      elitist  1.0949405E+22 feasible? F
+gen   8700/76000      elitist  1.0949405E+22 feasible? F
+gen   8800/76000      elitist  1.0949405E+22 feasible? F
+gen   8900/76000      elitist  1.0949405E+22 feasible? F
+gen   9000/76000      elitist  1.0949405E+22 feasible? F
+gen   9100/76000      elitist  1.0949405E+22 feasible? F
+gen   9200/76000      elitist  1.0949405E+22 feasible? F
+gen   9300/76000      elitist  1.0949405E+22 feasible? F
+gen   9400/76000      elitist  1.0949405E+22 feasible? F
+gen   9500/76000      elitist  1.0949405E+22 feasible? F
+gen   9600/76000      elitist  1.0949405E+22 feasible? F
+gen   9700/76000      elitist  1.0949405E+22 feasible? F
+gen   9800/76000      elitist  1.0949405E+22 feasible? F
+gen   9900/76000      elitist  1.0949405E+22 feasible? F
+gen  10000/76000      elitist  1.0949405E+22 feasible? F
+gen  10100/76000      elitist  1.0949405E+22 feasible? F
+gen  10200/76000      elitist  1.0949405E+22 feasible? F
+gen  10300/76000      elitist  1.0949405E+22 feasible? F
+gen  10400/76000      elitist  1.0949405E+22 feasible? F
+gen  10500/76000      elitist  1.0949405E+22 feasible? F
+gen  10600/76000      elitist  1.0949405E+22 feasible? F
+gen  10700/76000      elitist  1.0949405E+22 feasible? F
+gen  10800/76000      elitist  1.0949405E+22 feasible? F
+gen  10900/76000      elitist  1.0949405E+22 feasible? F
+gen  11000/76000      elitist  1.0949405E+22 feasible? F
+gen  11100/76000      elitist  1.0949405E+22 feasible? F
+gen  11200/76000      elitist  1.0949405E+22 feasible? F
+gen  11300/76000      elitist  1.0949405E+22 feasible? F
+gen  11400/76000      elitist  1.0949405E+22 feasible? F
+gen  11500/76000      elitist  1.0949405E+22 feasible? F
+gen  11600/76000      elitist  1.0949405E+22 feasible? F
+gen  11700/76000      elitist  1.0949405E+22 feasible? F
+gen  11800/76000      elitist  1.0949405E+22 feasible? F
+gen  11900/76000      elitist  1.0949405E+22 feasible? F
+gen  12000/76000      elitist  1.0949405E+22 feasible? F
+gen  12100/76000      elitist  1.0949405E+22 feasible? F
+gen  12200/76000      elitist  1.0949405E+22 feasible? F
+gen  12300/76000      elitist  1.0949405E+22 feasible? F
+gen  12400/76000      elitist  1.0949405E+22 feasible? F
+gen  12500/76000      elitist  1.0949405E+22 feasible? F
+gen  12600/76000      elitist  1.0949405E+22 feasible? F
+gen  12700/76000      elitist  1.0949405E+22 feasible? F
+gen  12800/76000      elitist  1.0949405E+22 feasible? F
+gen  12900/76000      elitist  1.0949405E+22 feasible? F
+gen  13000/76000      elitist  1.0949405E+22 feasible? F
+gen  13100/76000      elitist  1.0949405E+22 feasible? F
+gen  13200/76000      elitist  1.0949405E+22 feasible? F
+gen  13300/76000      elitist  1.0949405E+22 feasible? F
+gen  13400/76000      elitist  1.0949405E+22 feasible? F
+gen  13500/76000      elitist  1.0949405E+22 feasible? F
+gen  13600/76000      elitist  1.0949405E+22 feasible? F
+gen  13700/76000      elitist  1.0949405E+22 feasible? F
+gen  13800/76000      elitist  1.0949405E+22 feasible? F
+gen  13900/76000      elitist  1.0949405E+22 feasible? F
+gen  14000/76000      elitist  1.0949405E+22 feasible? F
+gen  14100/76000      elitist  1.0949405E+22 feasible? F
+gen  14200/76000      elitist  1.0949405E+22 feasible? F
+gen  14300/76000      elitist  1.0949405E+22 feasible? F
+gen  14400/76000      elitist  1.0949405E+22 feasible? F
+gen  14500/76000      elitist  1.0949405E+22 feasible? F
+gen  14600/76000      elitist  1.0949405E+22 feasible? F
+gen  14700/76000      elitist  1.0949405E+22 feasible? F
+gen  14800/76000      elitist  1.0949405E+22 feasible? F
+gen  14900/76000      elitist  1.0949405E+22 feasible? F
+gen  15000/76000      elitist  1.0949405E+22 feasible? F
+gen  15100/76000      elitist  1.0949405E+22 feasible? F
+gen  15200/76000      elitist  1.0949405E+22 feasible? F
+gen  15300/76000      elitist  1.0949405E+22 feasible? F
+gen  15400/76000      elitist  1.0949405E+22 feasible? F
+gen  15500/76000      elitist  1.0949405E+22 feasible? F
+gen  15600/76000      elitist  1.0949405E+22 feasible? F
+gen  15700/76000      elitist  1.0949405E+22 feasible? F
+gen  15800/76000      elitist  1.0949405E+22 feasible? F
+gen  15900/76000      elitist  1.0949405E+22 feasible? F
+gen  16000/76000      elitist  1.0949405E+22 feasible? F
+gen  16100/76000      elitist  1.0949405E+22 feasible? F
+gen  16200/76000      elitist  1.0949405E+22 feasible? F
+gen  16300/76000      elitist  1.0949405E+22 feasible? F
+gen  16400/76000      elitist  1.0949405E+22 feasible? F
+gen  16500/76000      elitist  1.0949405E+22 feasible? F
+gen  16600/76000      elitist  1.0949405E+22 feasible? F
+gen  16700/76000      elitist  1.0949405E+22 feasible? F
+gen  16800/76000      elitist  1.0949405E+22 feasible? F
+gen  16900/76000      elitist  1.0949405E+22 feasible? F
+gen  17000/76000      elitist  1.0949405E+22 feasible? F
+gen  17100/76000      elitist  1.0949405E+22 feasible? F
+gen  17200/76000      elitist  1.0949405E+22 feasible? F
+gen  17300/76000      elitist  1.0949405E+22 feasible? F
+gen  17400/76000      elitist  1.0949405E+22 feasible? F
+gen  17500/76000      elitist  1.0949405E+22 feasible? F
+gen  17600/76000      elitist  1.0949405E+22 feasible? F
+gen  17700/76000      elitist  1.0949405E+22 feasible? F
+gen  17800/76000      elitist  1.0949405E+22 feasible? F
+gen  17900/76000      elitist  1.0949405E+22 feasible? F
+gen  18000/76000      elitist  1.0949405E+22 feasible? F
+gen  18100/76000      elitist  1.0949405E+22 feasible? F
+gen  18200/76000      elitist  1.0949405E+22 feasible? F
+gen  18300/76000      elitist  1.0949405E+22 feasible? F
+gen  18400/76000      elitist  1.0949405E+22 feasible? F
+gen  18500/76000      elitist  1.0949405E+22 feasible? F
+gen  18600/76000      elitist  1.0949405E+22 feasible? F
+gen  18700/76000      elitist  1.1151763E+22 feasible? F
+gen  18800/76000      elitist  1.1151763E+22 feasible? F
+gen  18900/76000      elitist  1.1151763E+22 feasible? F
+gen  19000/76000      elitist  1.1151763E+22 feasible? F
+gen  19100/76000      elitist  1.1151763E+22 feasible? F
+gen  19200/76000      elitist  1.1151763E+22 feasible? F
+gen  19300/76000      elitist  1.1151763E+22 feasible? F
+gen  19400/76000      elitist  1.1151763E+22 feasible? F
+gen  19500/76000      elitist  1.1151763E+22 feasible? F
+gen  19600/76000      elitist  1.1151763E+22 feasible? F
+gen  19700/76000      elitist  1.1151763E+22 feasible? F
+gen  19800/76000      elitist  1.1151763E+22 feasible? F
+gen  19900/76000      elitist  1.1151763E+22 feasible? F
+gen  20000/76000      elitist  1.1151763E+22 feasible? F
+gen  20100/76000      elitist  1.1151763E+22 feasible? F
+gen  20200/76000      elitist  1.1151763E+22 feasible? F
+gen  20300/76000      elitist  1.1151763E+22 feasible? F
+gen  20400/76000      elitist  1.1151763E+22 feasible? F
+gen  20500/76000      elitist  1.1151763E+22 feasible? F
+gen  20600/76000      elitist  1.1151763E+22 feasible? F
+gen  20700/76000      elitist  1.1151763E+22 feasible? F
+gen  20800/76000      elitist  1.1151763E+22 feasible? F
+gen  20900/76000      elitist  1.1151763E+22 feasible? F
+gen  21000/76000      elitist  1.1151763E+22 feasible? F
+gen  21100/76000      elitist  1.1151763E+22 feasible? F
+gen  21200/76000      elitist  1.1151763E+22 feasible? F
+gen  21300/76000      elitist  1.1151763E+22 feasible? F
+gen  21400/76000      elitist  1.1151763E+22 feasible? F
+gen  21500/76000      elitist  1.1151763E+22 feasible? F
+gen  21600/76000      elitist  1.1151763E+22 feasible? F
+gen  21700/76000      elitist  1.1151763E+22 feasible? F
+gen  21800/76000      elitist  1.1151763E+22 feasible? F
+gen  21900/76000      elitist  1.1151763E+22 feasible? F
+gen  22000/76000      elitist  1.1151763E+22 feasible? F
+gen  22100/76000      elitist  1.1151763E+22 feasible? F
+gen  22200/76000      elitist  1.1151763E+22 feasible? F
+gen  22300/76000      elitist  1.1151763E+22 feasible? F
+gen  22400/76000      elitist  1.1151763E+22 feasible? F
+gen  22500/76000      elitist  1.1151763E+22 feasible? F
+gen  22600/76000      elitist  1.1151763E+22 feasible? F
+gen  22700/76000      elitist  1.1151763E+22 feasible? F
+gen  22800/76000      elitist  1.1151763E+22 feasible? F
+gen  22900/76000      elitist  1.1151763E+22 feasible? F
+gen  23000/76000      elitist  1.1151763E+22 feasible? F
+gen  23100/76000      elitist  1.1151763E+22 feasible? F
+gen  23200/76000      elitist  1.1151763E+22 feasible? F
+gen  23300/76000      elitist  1.1151763E+22 feasible? F
+gen  23400/76000      elitist  1.1151763E+22 feasible? F
+gen  23500/76000      elitist  1.1151763E+22 feasible? F
+gen  23600/76000      elitist  1.1151763E+22 feasible? F
+gen  23700/76000      elitist  1.1151763E+22 feasible? F
+gen  23800/76000      elitist  1.1151763E+22 feasible? F
+gen  23900/76000      elitist  1.1151763E+22 feasible? F
+gen  24000/76000      elitist  1.1151763E+22 feasible? F
+gen  24100/76000      elitist  1.1151763E+22 feasible? F
+gen  24200/76000      elitist  1.1151763E+22 feasible? F
+gen  24300/76000      elitist  1.1151763E+22 feasible? F
+gen  24400/76000      elitist  1.1151763E+22 feasible? F
+gen  24500/76000      elitist  1.1151763E+22 feasible? F
+gen  24600/76000      elitist  1.1151763E+22 feasible? F
+gen  24700/76000      elitist  1.1151763E+22 feasible? F
+gen  24800/76000      elitist  1.1151763E+22 feasible? F
+gen  24900/76000      elitist  1.1151763E+22 feasible? F
+gen  25000/76000      elitist  1.1151763E+22 feasible? F
+gen  25100/76000      elitist  1.1151763E+22 feasible? F
+gen  25200/76000      elitist  1.1151763E+22 feasible? F
+gen  25300/76000      elitist  1.1151763E+22 feasible? F
+gen  25400/76000      elitist  1.1151763E+22 feasible? F
+gen  25500/76000      elitist  1.1151763E+22 feasible? F
+gen  25600/76000      elitist  1.1151763E+22 feasible? F
+gen  25700/76000      elitist  1.1151763E+22 feasible? F
+gen  25800/76000      elitist  1.1151763E+22 feasible? F
+gen  25900/76000      elitist  1.1151763E+22 feasible? F
+gen  26000/76000      elitist  1.1151763E+22 feasible? F
+gen  26100/76000      elitist  1.1151763E+22 feasible? F
+gen  26200/76000      elitist  1.1151763E+22 feasible? F
+gen  26300/76000      elitist  1.1151763E+22 feasible? F
+gen  26400/76000      elitist  1.1151763E+22 feasible? F
+gen  26500/76000      elitist  1.1151763E+22 feasible? F
+gen  26600/76000      elitist  1.1151763E+22 feasible? F
+gen  26700/76000      elitist  1.1151763E+22 feasible? F
+gen  26800/76000      elitist  1.1151763E+22 feasible? F
+gen  26900/76000      elitist  1.1151763E+22 feasible? F
+gen  27000/76000      elitist  1.1151763E+22 feasible? F
+gen  27100/76000      elitist  1.1151763E+22 feasible? F
+gen  27200/76000      elitist  1.1151763E+22 feasible? F
+gen  27300/76000      elitist  1.1151763E+22 feasible? F
+gen  27400/76000      elitist  1.1151763E+22 feasible? F
+gen  27500/76000      elitist  1.1151763E+22 feasible? F
+gen  27600/76000      elitist  1.1151763E+22 feasible? F
+gen  27700/76000      elitist  1.1151763E+22 feasible? F
+gen  27800/76000      elitist  1.1151763E+22 feasible? F
+gen  27900/76000      elitist  1.1151763E+22 feasible? F
+gen  28000/76000      elitist  1.1151763E+22 feasible? F
+gen  28100/76000      elitist  1.1151763E+22 feasible? F
+gen  28200/76000      elitist  1.1151763E+22 feasible? F
+gen  28300/76000      elitist  1.1151763E+22 feasible? F
+gen  28400/76000      elitist  1.1151763E+22 feasible? F
+gen  28500/76000      elitist  1.1151763E+22 feasible? F
+gen  28600/76000      elitist  1.1151763E+22 feasible? F
+gen  28700/76000      elitist  1.1151763E+22 feasible? F
+gen  28800/76000      elitist  1.1151763E+22 feasible? F
+gen  28900/76000      elitist  1.1151763E+22 feasible? F
+gen  29000/76000      elitist  1.1151763E+22 feasible? F
+gen  29100/76000      elitist  1.1151763E+22 feasible? F
+gen  29200/76000      elitist  1.1151763E+22 feasible? F
+gen  29300/76000      elitist  1.1151763E+22 feasible? F
+gen  29400/76000      elitist  1.1151763E+22 feasible? F
+gen  29500/76000      elitist  1.1151763E+22 feasible? F
+gen  29600/76000      elitist  1.1151763E+22 feasible? F
+gen  29700/76000      elitist  1.1151763E+22 feasible? F
+gen  29800/76000      elitist  1.1151763E+22 feasible? F
+gen  29900/76000      elitist  1.1151763E+22 feasible? F
+gen  30000/76000      elitist  1.1151763E+22 feasible? F
+gen  30100/76000      elitist  1.1151763E+22 feasible? F
+gen  30200/76000      elitist  1.1151763E+22 feasible? F
+gen  30300/76000      elitist  1.1151763E+22 feasible? F
+gen  30400/76000      elitist  1.1151763E+22 feasible? F
+gen  30500/76000      elitist  1.1151763E+22 feasible? F
+gen  30600/76000      elitist  1.1151763E+22 feasible? F
+gen  30700/76000      elitist  1.1151763E+22 feasible? F
+gen  30800/76000      elitist  1.1151763E+22 feasible? F
+gen  30900/76000      elitist  1.1151763E+22 feasible? F
+gen  31000/76000      elitist  1.1151763E+22 feasible? F
+gen  31100/76000      elitist  1.1151763E+22 feasible? F
+gen  31200/76000      elitist  1.1151763E+22 feasible? F
+gen  31300/76000      elitist  1.1151763E+22 feasible? F
+gen  31400/76000      elitist  1.1151763E+22 feasible? F
+gen  31500/76000      elitist  1.1151763E+22 feasible? F
+gen  31600/76000      elitist  1.1151763E+22 feasible? F
+gen  31700/76000      elitist  1.1151763E+22 feasible? F
+gen  31800/76000      elitist  1.1151763E+22 feasible? F
+gen  31900/76000      elitist  1.1151763E+22 feasible? F
+gen  32000/76000      elitist  1.1151763E+22 feasible? F
+gen  32100/76000      elitist  1.1151763E+22 feasible? F
+gen  32200/76000      elitist  1.1151763E+22 feasible? F
+gen  32300/76000      elitist  1.1151763E+22 feasible? F
+gen  32400/76000      elitist  1.1151763E+22 feasible? F
+gen  32500/76000      elitist  1.1151763E+22 feasible? F
+gen  32600/76000      elitist  1.1151763E+22 feasible? F
+gen  32700/76000      elitist  1.1151763E+22 feasible? F
+gen  32800/76000      elitist  1.1151763E+22 feasible? F
+gen  32900/76000      elitist  1.1151763E+22 feasible? F
+gen  33000/76000      elitist  1.1151763E+22 feasible? F
+gen  33100/76000      elitist  1.1151763E+22 feasible? F
+gen  33200/76000      elitist  1.1151763E+22 feasible? F
+gen  33300/76000      elitist  1.1151763E+22 feasible? F
+gen  33400/76000      elitist  1.1151763E+22 feasible? F
+gen  33500/76000      elitist  1.1151763E+22 feasible? F
+gen  33600/76000      elitist  1.1151763E+22 feasible? F
+gen  33700/76000      elitist  1.1151763E+22 feasible? F
+gen  33800/76000      elitist  1.1151763E+22 feasible? F
+gen  33900/76000      elitist  1.1151763E+22 feasible? F
+gen  34000/76000      elitist  1.1151763E+22 feasible? F
+gen  34100/76000      elitist  1.1151763E+22 feasible? F
+gen  34200/76000      elitist  1.1151763E+22 feasible? F
+gen  34300/76000      elitist  1.1151763E+22 feasible? F
+gen  34400/76000      elitist  1.1151763E+22 feasible? F
+gen  34500/76000      elitist  1.1151763E+22 feasible? F
+gen  34600/76000      elitist  1.1151763E+22 feasible? F
+gen  34700/76000      elitist  1.1151763E+22 feasible? F
+gen  34800/76000      elitist  1.1151763E+22 feasible? F

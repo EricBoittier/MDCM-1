@@ -1,0 +1,2 @@
+mv: cannot stat ‘comparison.png’: No such file or directory
+slurmstepd: error: *** JOB 3327685 ON node107 CANCELLED AT 2021-02-15T09:51:20 ***

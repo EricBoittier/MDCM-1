@@ -43,6 +43,9 @@ while(<XYZ>){
 }
 close(XYZ);
 
+print "here 1\n";
+
+
 $line=1;
 $flag=0;
 open(CUB,"<$ARGV[1]");
@@ -50,19 +53,32 @@ while(<CUB>){
 
   chomp;
   my @a=split;
-
+  print $line;
   if($line == 3) { $natm = $a[0]; }
 
   if($line>6 && $line <= 6+$natm){
+    print "inside if\n";
+
     $coords[$atm][0]=$a[2]*$toang;
     $coords[$atm][1]=$a[3]*$toang;
-    $coords[$atm++][2]=$a[4]*$toang;
+    $coords[$atm][2]=$a[4]*$toang;
+    print $coords[$atm][0];
+    print $coords[$atm][1];
+    print $coords[$atm][2];
+
+    $atm++;
+
   }
 
   $line++;
 
 }
 close(CUB);
+
+
+print "here 2\n";
+
+
 
 $natm=$atm;
 $nq=$qatm;
