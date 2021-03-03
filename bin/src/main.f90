@@ -2,7 +2,7 @@
 !
 !      main.f90
 !      Created: 9 May 2016 at 09:54
-!
+!      Eric was here
 !///////////////////////////////////////////////////////////////////////////////
 program cubefit
 use differential_evolution
@@ -687,6 +687,7 @@ if(refine_solution) then
       write(*,'(A)') "Setting num_trials=1 and continuing"
     endif
     do try = 1,num_trials
+        ! Simplex
         if(simplex_only) then
           if(verbose) then
              write(*,'(A)')
@@ -694,10 +695,13 @@ if(refine_solution) then
              write(*,'(A)')
           endif
           call DE_simplex(rmse_qtot,feasible,charges(1:qdim))
+        !  DE
         else
           call DE_optimize(rmse_qtot,feasible,sum_constr,charges(1:qdim),guess=charges(1:qdim))
           if(verbose) write(*,'(A,I0,A,I0)') "Starting refinement for ",num_charges," charges, trial ",try
         endif
+        
+        
         ! measure the quality of the fit
         RMSE_tmp = rmse_qtot(charges(1:qdim)) 
         if(verbose) write(*,'(A,ES23.9,A)') "RMSE ", RMSE_tmp, " Hartree"
@@ -2875,10 +2879,6 @@ real(rp) function mESP(l,m,rmag,r)
 
 end function mESP
 !-------------------------------------------------------------------------------
-
-
-
-
 
 !-------------------------------------------------------------------------------
 ! throws an error message and terminates the code
