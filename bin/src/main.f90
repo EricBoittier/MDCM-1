@@ -2732,6 +2732,8 @@ subroutine read_cube_file(filepath,density_filepath)
     if(verbose) write(*,'(6(A8,5X))') ".",".",".",".",".","."
     if(verbose) write(*,'(6ES13.5)') esp_grid(Ngrid-5:Ngrid)
     if(verbose) write(*,*)
+    if(verbose .AND. use_density_grid_cutoff) write(*,'(A)') 'Using density grid cutoff'
+    if(verbose .AND. use_vdW_grid_cutoff) write(*, '(A)') 'Using VDW grid cutoff'
     if(verbose) write(*,'(I0,A,I0,A,F5.1,A)') Ngrid, ' out of ', NgridX*NgridY*NgridZ, &
             ' gridpoints are considered (',100*Ngrid/real(NgridX*NgridY*NgridZ,rp),'%).'
     
